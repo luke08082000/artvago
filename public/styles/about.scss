@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+
+    body{
+        font-family: 'Abhaya Libre', serif;
+    }
+}
+$hover-color: aliceblue;
+$bg-color: #c9f1fd;
+header {
+    text-align: center;
+    margin-top: 7.5vh;
+    cursor: default;
+}
+h1 {
+    font-weight: normal;
+}
+nav {
+    display: grid;
+    width: 938px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-inline: auto;
+
+    a:hover{
+        background-color: $hover-color;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding-block: 7.5px;;
+        list-style-type: none;
+    }
+    
+    a:nth-child(3){
+        background-color: $bg-color;
+    }
+}

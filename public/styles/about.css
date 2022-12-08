@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body {
+  font-family: 'Abhaya Libre', serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 7.5vh;
+  cursor: default;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+  width: 938px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  margin-inline: auto;
+}
+
+nav a:hover {
+  background-color: aliceblue;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-block: 7.5px;
+  list-style-type: none;
+}
+
+nav a:nth-child(3) {
+  background-color: #c9f1fd;
+}
+/*# sourceMappingURL=about.css.map */
