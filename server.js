@@ -7,6 +7,7 @@ const artistRouter = require('./routes/artist');
 const methodOverride = require('method-override');
 const app = express();
 
+mongoose.set('strictQuery', false);
 mongoose.connect('mongodb+srv://luke:dZYDHgOZxtGpL6vo@cluster0.hsf7soe.mongodb.net/?retryWrites=true&w=majority');
 
 app.set('view engine', 'ejs')
